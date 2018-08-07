@@ -25,3 +25,6 @@ test:
 production:
   <<: *default
   database: mydb
+  adapter: postgresql
+  username: postgres
+  password: 12345
